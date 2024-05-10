@@ -5,7 +5,7 @@ var randomNumber1 = Math.floor(Math.random() * 6) + 1; //1-6
 //dice1.png - dice6.png
 var randomImageSource = "images/dice" + randomNumber1 + ".png"; //dice1.png - dice6.png
 // set attribute and put the random image source
-var image1 = document.querySelectorAll("img")[0].setAttribute("src", randomImageSource);
+document.querySelectorAll("img")[0].setAttribute("src", randomImageSource);
 
 //2nd dice
 //random number generator
